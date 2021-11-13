@@ -4,7 +4,7 @@
 ---
 
 
-![QuiEstCe](./assets/images/home/quiEstCe.JPG "QuiEstCe")
+![quiEstCe](./assets/images/home/quiEstCe.JPG "quiEstCe")
 
 
 ---
