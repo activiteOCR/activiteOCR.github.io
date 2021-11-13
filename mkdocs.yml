@@ -37,3 +37,5 @@ nav:
   - Presentation: presentation.md
 
   - Guide technique: notice.md
+   
+  - Architecture: architecture.md
