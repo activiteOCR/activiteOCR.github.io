@@ -2,16 +2,17 @@ site_name: SysQuiEstCe
 
 
 # Repository
-repo_name: yncrea-sysexp
-repo_url: https://github.com/jurocknsail/yncrea-sysexp
+repo_name: Sys_QuiEstCe-
+repo_url: https://github.com/obalise/Sys_QuiEstCe-
 edit_uri: ""
-site_description: >-
-  Ce cours fait partie du cours <b>ITII 2 - SYSEXP</b> pour <b>YNCREA Toulon</b> sur les systèmes d'exploitation et principalement les connaissances Linux et bases de programmation système.
-  <br><br>
-  <i>Le cours se déroule sur 4 jours et vise à donner aux étudiants un aperçu de la façon de travailler du système d'exploitation, une connaissance basique du shell et de programmation de processus.</i>
+
+#site_description: >-
+#  Ce cours fait partie du cours <b>ITII 2 - SYSEXP</b> pour <b>YNCREA Toulon</b> sur les systèmes d'exploitation et principalement les connaissances Linux et bases de programmation système.
+#  <br><br>
+#  <i>Le cours se déroule sur 4 jours et vise à donner aux étudiants un aperçu de la façon de travailler du système d'exploitation, une connaissance basique du shell et de programmation de processus.</i>
 
 theme:
-  language: en
+  language: fr
   name: 'material'
   #logo: assets/images/yncrea.png
   #favicon: assets/images/yncrea.png
@@ -27,3 +28,14 @@ theme:
     - navigation.instant
     - navigation.tabs
   #custom_dir: material
+
+nav:
+  - Home: index.md
+  - Guide utilisateur:
+      - Introduction: guide.md
+
+  - Presentation:
+      - Commandes Shell: presentation.md
+
+  - Guide technique:
+      - Programmation Système - TP1 Echauffement : notice.md
