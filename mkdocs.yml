@@ -31,11 +31,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Guide utilisateur:
-      - Introduction: guide.md
 
-  - Presentation:
-      - Commandes Shell: presentation.md
+  - Guide utilisateur: guide.md
 
-  - Guide technique:
-      - Programmation Système - TP1 Echauffement : notice.md
+  - Presentation: presentation.md
+
+  - Guide technique: notice.md
