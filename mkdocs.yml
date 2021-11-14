@@ -1,4 +1,4 @@
-site_name: 'Yncrea - Cours SYSEXP'
+site_name: 'Yncrea - SysQuiEstCe'
 
 # Repository
 repo_name: Sys_QuiEstCe-
@@ -22,9 +22,9 @@ nav:
   - Architecture: architecture.md
 
 theme:
-  language: fr
+  language: En
   name: 'material'
-  logo: assets/images/yncrea.png
+  logo: assets/images/quiEstCe.jpg
   favicon: assets/images/yncrea.png
   palette:
     primary: cyan
