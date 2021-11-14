@@ -86,9 +86,9 @@ copyright: '&copy; 2020 Julien Berger'
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jurocknsail
+      link: https://github.com/activiteocr
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/julien-berger-0a9671154/
+      link: https://www.linkedin.com/in/julien-terrier-lion-4675ba114/
 
 extra_javascript:
   - javascripts/config.js
@@ -96,6 +96,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
