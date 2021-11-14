@@ -24,7 +24,7 @@ theme:
   language: en
   name: 'material'
   icon:
-    logo: material/library/logo
+    logo: logo.svg
   favicon: assets/images/yncrea.png
   palette:
     primary: cyan
