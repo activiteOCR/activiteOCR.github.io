@@ -1,4 +1,11 @@
+# Bienvenu dans le jeu Sys_QuiEstCe
+
+
 ---
-template: overrides/home.html
-title: Yncréa Cours SYSEXP
+
+
+![QuiEstCe](./assets/images/home/quiEstCe.jpg "QuiEstCe")
+
+
 ---
+

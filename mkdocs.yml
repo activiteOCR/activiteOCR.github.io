@@ -1,65 +1,32 @@
-site_name: 'Yncrea - Cours SYSEXP'
+site_name: SysQuiEstCe
+
 
 # Repository
-repo_name: yncrea-sysexp
-repo_url: https://github.com/jurocknsail/yncrea-sysexp
+repo_name: Sys_QuiEstCe-
+repo_url: https://github.com/obalise/Sys_QuiEstCe-
 edit_uri: ""
-site_description: >-
-  Ce cours fait partie du cours <b>ITII 2 - SYSEXP</b> pour <b>YNCREA Toulon</b> sur les systèmes d'exploitation et principalement les connaissances Linux et bases de programmation système.
-  <br><br>
-  <i>Le cours se déroule sur 4 jours et vise à donner aux étudiants un aperçu de la façon de travailler du système d'exploitation, une connaissance basique du shell et de programmation de processus.</i>
+
+#site_description: >-
+#  Ce cours fait partie du cours <b>ITII 2 - SYSEXP</b> pour <b>YNCREA Toulon</b> sur les systèmes d'exploitation et principalement les connaissances Linux et bases de programmation système.
+#  <br><br>
+#  <i>Le cours se déroule sur 4 jours et vise à donner aux étudiants un aperçu de la façon de travailler du système d'exploitation, une connaissance basique du shell et de programmation de processus.</i>
+
 nav:
   - Home: index.md
-  - Day#1:
-      - Introduction: 00_intro.md
-      - Histoire: 01_history.md
-      - SGF: 02_sgf.md
-      - Noyau: 06_kernel.md
-      - Processus: 03_processus.md
-      - Ordonnancement: 04_ordonnancement.md
-      - TD - Les Bases: 05_tdOrdo.md
-      - "": 05_tdOrdo_corr.md
-      - UNIX: 20_linuxshell.md
 
-  - Day#2:
-      - Commandes Shell: 21_cmdshell.md
-      - TP Linux Commands: 22_tpShell.md
-      - "": 22_tpShell_corr.md
-      - Regexp: 23_regexp.md
-      - AWK: 24_awk.md
-      - TP Regexp: 30_tpRegexp.md
-      - "": 30_tpRegexp_corr.md
+  - Guide utilisateur: guide.md
 
-  - Day#3:
-      - Programmation Système - TP1 Echauffement : 41_progsys_tp1_proc.md
-      - "" : 41_progsys_tp1_proc_corr.md
-      - Programmation Système - Fork: 40_progsys_fork.md
-      - Programmation Système - Execv: 40_progsys_execv.md
-      - Programmation Système - TP2 Fork/Execv : 41_progsys_tp2_proc.md
-      - "" :  41_progsys_tp2_proc_corr.md
+  - Presentation: presentation.md
 
-  - Day#4:
-      - Programmation Système - Signaux: 40_progsys_signals.md
-      - Programmation Système - TP3 Signaux : 41_progsys_tp3_sig.md
-      - "" : 41_progsys_tp3_sig_corr.md
-      - Programmation Système - E/S Bas Niveau: 40_progsys_files.md
-      - Programmation Système - TP4 E/S Bas Niveau : 41_progsys_tp4_fic.md
-      - "" : 41_progsys_tp4_fic_corr.md
-      - Programmation Système - Pipes: 40_progsys_pipes.md
-      - Programmation Système - TP5 Pipes : 41_progsys_tp5_pipes.md
-      - "" : 41_progsys_tp5_pipes_corr.md
+  - Guide technique: notice.md
 
-  - Projets:
-      - Commun: 100_projets.md
-      - Sujet 1 - Reveil: 100_projets_sujet1.md
-      - Sujet 2 - Server Q&A: 100_projets_sujet2.md
-      - Sujet 3 - Equipes de Processus: 100_projets_sujet3.md
-      - Sujets Custom: 100_projets_sujet_custom.md
+  - Architecture: architecture.md
+
 theme:
-  language: en
+  language: fr
   name: 'material'
-  logo: assets/images/yncrea.png
-  favicon: assets/images/yncrea.png
+  #logo: assets/images/yncrea.png
+  #favicon: assets/images/yncrea.png
   palette:
     primary: cyan
     accent: cyan
@@ -129,6 +96,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Google Analytics
-#google_analytics:
-#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-#  - auto
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
