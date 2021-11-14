@@ -1,11 +1,5 @@
-# Bienvenu dans le jeu Sys_QuiEstCe
-
-
 ---
-
-
-![QuiEstCe](./assets/images/home/quiEstCe.jpg "QuiEstCe")
-
-
+template: overrides/home.html
+title: Bienvenu dans le jeu Sys_QuiestCe
 ---
 
