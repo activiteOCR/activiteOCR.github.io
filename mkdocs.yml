@@ -23,8 +23,7 @@ nav:
 theme:
   language: en
   name: 'material'
-  icon:
-    logo: logo
+  logo: assets/images/activiteocr.png
   favicon: assets/images/yncrea.png
   palette:
     primary: cyan
