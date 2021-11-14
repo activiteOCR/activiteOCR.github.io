@@ -11,6 +11,17 @@ edit_uri: ""
 #  <br><br>
 #  <i>Le cours se déroule sur 4 jours et vise à donner aux étudiants un aperçu de la façon de travailler du système d'exploitation, une connaissance basique du shell et de programmation de processus.</i>
 
+nav:
+  - Home: index.md
+
+  - Guide utilisateur: guide.md
+
+  - Presentation: presentation.md
+
+  - Guide technique: notice.md
+
+  - Architecture: architecture.md
+
 theme:
   language: fr
   name: 'material'
@@ -27,15 +38,64 @@ theme:
     - instant
     - navigation.instant
     - navigation.tabs
-  #custom_dir: material
+  custom_dir: material
 
-nav:
-  - Home: index.md
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
-  - Guide utilisateur: guide.md
+copyright: '&copy; 2020 Julien Berger'
 
-  - Presentation: presentation.md
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jurocknsail
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julien-berger-0a9671154/
 
-  - Guide technique: notice.md
-   
-  - Architecture: architecture.md
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
