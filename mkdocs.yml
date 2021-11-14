@@ -22,7 +22,7 @@ nav:
   - Architecture: architecture.md
 
 theme:
-  language: En
+  language: en
   name: 'material'
   favicon: assets/images/yncrea.png
   palette:
