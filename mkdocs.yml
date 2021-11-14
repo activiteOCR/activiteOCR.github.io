@@ -80,7 +80,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-copyright: '&copy; 2020 Julien Berger'
+copyright: '&copy; 2021 P18M'
 
 # Customization
 extra:
