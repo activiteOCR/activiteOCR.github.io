@@ -24,7 +24,6 @@ nav:
 theme:
   language: En
   name: 'material'
-  logo: assets/images/quiEstCe.jpg
   favicon: assets/images/yncrea.png
   palette:
     primary: cyan
