@@ -17,11 +17,11 @@ Si vous trouvez l'élève mystère dans le temps imparti et avant les autres jou
 # Installation logiciel
 
 Pour commencer :
-1. Installer/posséder le logiciel « Putty »
-2. Sur Windows [putty](https://www.putty.org/)
-3. Sur linux
- 	1. Ouvrez votre terminal.
-	2. Taper la commande : « sudo apt install putty »
+* 1. Installer/posséder le logiciel « Putty »
+* 2. Sur Windows [putty](https://www.putty.org/)
+* 3. Sur linux
+ 	* 1. Ouvrez votre terminal.
+	* 2. Taper la commande : « sudo apt install putty »
 ---
 
 # Connection serveur

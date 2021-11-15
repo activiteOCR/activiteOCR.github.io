@@ -20,8 +20,6 @@ nav:
 
   - Guide technique: notice.md
 
-  - Architecture: architecture.md
-
 theme:
   language: fr
   name: 'material'
