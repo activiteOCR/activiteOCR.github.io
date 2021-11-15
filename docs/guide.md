@@ -32,19 +32,46 @@ Après avoir installer Putty:
 3. Une fois connecté:
 	* Ouvrez putty
 	* Connectez-vous en SSH
-	* Adresse IP:  10.3.141.1 ![putty1](./assets/images/guide/putty1.png "putty1")
-4. Un terminal s'ouvre:
-		* Connectez-vous avec l'identifiant: isen ![putty2](./assets/images/guide/putty2.png "putty2")
-		* Mot de passe: sysex2021!  ![putty3](./assets/images/guide/putty3.png "putty3")
+	* Adresse IP:  10.3.141.1
+---
 
+	![putty1](./assets/images/guide/putty1.png "putty1")
+	
+---
+
+4. Un terminal s'ouvre:
+		* Connectez-vous avec l'identifiant: isen 
+---
+	
+	![putty2](./assets/images/guide/putty2.png "putty2")
+	
+---
+		* Mot de passe: sysex2021!  
+---		
+
+	![putty3](./assets/images/guide/putty3.png "putty3")
+
+---
 Félicitation, vous êtes connecté au serveur.
 ---
 
-#Lancement de la partie
+###Lancement de la partie
 
 Pour lancer une partie:
-1. Dirigez-vous dans le bon repertoire en utilisant la commande ![putty4](./assets/images/guide/putty4.png "putty4")
-2. Attendez que tous les joueurs arrivent à votre niveau.
-3. Lancez le programme en tapant ![putty5](./assets/images/guide/putty5.png "putty5")
+1. Dirigez-vous dans le bon repertoire en utilisant la commande 
 
+---
+
+![putty4](./assets/images/guide/putty4.png "putty4")
+
+---
+
+2. Attendez que tous les joueurs arrivent à votre niveau.
+3. Lancez le programme en tapant 
+
+---
+
+![putty5](./assets/images/guide/putty5.png "putty5")
+
+---
 
