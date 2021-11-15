@@ -1,7 +1,11 @@
 # Projet Informatique :
 ## Notice Utilisateur
 ---
-![quiEstCe](./asset/images/notice/quiEstCe.png "quiEstCe")
+
+
+![QuiEstCe](./assets/images/home/quiEstCe.jpg "QuiEstCe")
+
+
 ---
 ### Réaliser par :
 Florent VILLENEUVE - Julien TERRIER - Adrien KAISER - Olivier MAHE
