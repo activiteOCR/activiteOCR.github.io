@@ -1,13 +1,6 @@
-# Projet Informatique :
-## Notice Utilisateur
----
+# Guide Utilisateur
 
-
-![QuiEstCe](./assets/images/guide/quiEstCe.jpg "QuiEstCe")
-
-
----
-### Réaliser par :
+## Réaliser par :
 Florent VILLENEUVE - Julien TERRIER - Adrien KAISER - Olivier MAHE
 
 # Introduction

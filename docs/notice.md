@@ -1,9 +1,6 @@
-# Projet Informatique :
-## Notice Technique
----
-![quiEstCe](./asset/images/guide/quiEstCe.jpg "quiEstCe")
----
-### Réaliser par :
+# Notice Technique
+
+## Réaliser par :
 Florent VILLENEUVE - Julien TERRIER - Adrien KAISER - Olivier MAHE
 
 ## Introduction :
