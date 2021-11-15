@@ -78,18 +78,20 @@ Félicitation, vous êtes connecté au serveur.
 Pour lancer une partie:
 - Dirigez-vous dans le bon repertoire en utilisant la commande 
 
-***
-
-![putty4](./assets/images/guide/putty4.png "putty4")
+```bash linenums="1"
+cd Sys_QuiEstCe-/client/.
+```
 
 ---
+
+
 
 - Attendez que tous les joueurs arrivent à votre niveau.
 - Lancez le programme en tapant 
 
-***
-
-![putty5](./assets/images/guide/putty5.png "putty5")
+```bash linenums="1"
+./client
+```
 
 ---
 
