@@ -30,12 +30,12 @@ Après avoir installer Putty:
 1. Connectez-vous au réseau wifi "SysQuiEstCe"
 2. mot de passe "sysex2021!"
 3. Une fois connecté:
-	1. Ouvrez putty
-	2. Connectez-vous en SSH
-	3. Adresse IP:  10.3.141.1 ![putty1](./asset/images/guide/putty1.png "putty1")
-	4.Un terminal s'ouvre:
-		1. Connectez-vous avec l'identifiant: isen ![putty2](./asset/images/guide/putty2.png "putty2")
-		2. Mot de passe: sysex2021!  ![putty3](./asset/images/guide/putty3.png "putty3")
+	* Ouvrez putty
+	* Connectez-vous en SSH
+	* Adresse IP:  10.3.141.1 ![putty1](./assets/images/guide/putty1.png "putty1")
+4. Un terminal s'ouvre:
+		* Connectez-vous avec l'identifiant: isen ![putty2](./assets/images/guide/putty2.png "putty2")
+		* Mot de passe: sysex2021!  ![putty3](./assets/images/guide/putty3.png "putty3")
 
 Félicitation, vous êtes connecté au serveur.
 ---
@@ -43,8 +43,8 @@ Félicitation, vous êtes connecté au serveur.
 #Lancement de la partie
 
 Pour lancer une partie:
-1. Dirigez-vous dans le bon repertoire en utilisant la commande ![putty4](./asset/images/guide/putty4.png "putty4")
+1. Dirigez-vous dans le bon repertoire en utilisant la commande ![putty4](./assets/images/guide/putty4.png "putty4")
 2. Attendez que tous les joueurs arrivent à votre niveau.
-3. Lancez le programme en tapant ![putty5](./asset/images/guide/putty5.png "putty5")
+3. Lancez le programme en tapant ![putty5](./assets/images/guide/putty5.png "putty5")
 
 

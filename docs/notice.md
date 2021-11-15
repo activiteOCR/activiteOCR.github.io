@@ -22,7 +22,7 @@ Pour le mode de jeu de base décrit plus haut :
 
 Chef de projet | Commercial | Système Administeur | Architecte Programme
  :---: | :---: | :---:  | :---: 
-![oliv](./asset/images/notice/oliv.png "oliv")| ![moi](./asset/images/notice/moi.png "moi") | ![julien](./asset/images/notice/julien.png "julien") | ![flo](./asset/images/notice/flo.png "flo") 
+![oliv](./assets/images/notice/oliv.png "oliv")| ![moi](./assets/images/notice/moi.png "moi") | ![julien](./assets/images/notice/julien.png "julien") | ![flo](./assets/images/notice/flo.png "flo") 
 Olivier MAHE | Adrien KAISER | Julien TERRIER | Florent VILLENEUVE
          
 ---
@@ -33,7 +33,7 @@ Nous avons dans un premier temps défini, les grandes lignes du projet en se ré
 Une fois nos idées misent en accords, nous avons commencé les tests avec la réalisations de pipe nommés,  la base de données...
 
 ---
-![arch](./asset/images/notice/arch.png "arch")
+![arch](./assets/images/notice/arch.png "arch")
 ---
 
 Des que notre base fut établie, nous nous sommes lancé dans l'élaboration d'une architecture viable. C'est-à-dire d'avoir une base qui fait tourner le programme sur une RPI avec une connection des clients en ssh,
@@ -45,7 +45,7 @@ Après avoir conçu notre première architecture nous avons pu affiner notre vis
 en modifiant le fonctionnement du programme serveur pour qu'il créer un processus fils à chaque connection d'un client qui renvoyer un une réponse au client pour savoir si tout c'est bien créer.
 
 ---
-![arch2](./asset/images/notice/arch2.png "arch2")
+![arch2](./assets/images/notice/arch2.png "arch2")
 ---
 
 Une fois la communication fonctionnelle nous avons commencé l'élaboration du menu permettant de jouer dans le programme client pour réduire le nombre d'échange serveur/client.
@@ -55,7 +55,7 @@ Une fois la communication fonctionnelle nous avons commencé l'élaboration du m
 Enfin, après avoir réussi à implémenter tout nos attente, nous avons choisi d'ajouter une carte olimex avec un écran à notre système pour afficher le nom du gagnant, et également parfaire l'ensemble du projet 
 
 ---
-![arch3](./asset/images/notice/arch3.png "arch3")
+![arch3](./assets/images/notice/arch3.png "arch3")
 ---
 
  
