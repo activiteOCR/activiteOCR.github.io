@@ -1,18 +1,33 @@
-# Welcome to MkDocs
+#Présentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+***
 
-## Commands
+![diapo1](./asset/images/presentation/diapo1.png "diapo1")
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+![diapo2](./asset/images/presentation/diapo2.png "diapo2")
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+***
 
+![diapo3](./asset/images/presentation/diapo3.png "diapo3")
+
+---
+
+![diapo11](./asset/images/presentation/diapo11.png "diapo11")
+
+***
+
+![diapo12](./asset/images/presentation/diapo12.png "diapo12")
+
+---
+
+![diapo4](./asset/images/presentation/diapo4.png "diapo4")
+
+***
+
+![diapo5](./asset/images/presentation/diapo5.png "diapo5")
+
+---
+
+![diapo13](./asset/images/presentation/diapo13.png "diapo13")
