@@ -70,4 +70,37 @@ Enfin, après avoir réussi à implémenter toutes nos attentes, nous avons choi
 
 ---
 
- 
+### Concept programmation de système linux
+
+Le but de ce projet fut avant tout de nous familiariser avec les concepts vus en cours.
+
+#### Les tubes
+
+Nous avons utilisé un tube nommé principal pour assurer la communication entre tous les clients et le serveur, ainsi que plusieurs tubes nommés individuels permettant au serveur de communiquer avec chaque client.
+---
+
+#### Les appels systèmes
+
+Les fork() sont utilisés pour instancier des processus fils lors de la connexion des clients,
+et également pour le sous-programme socket.c
+---
+
+#### Les primitives de recouvrements
+
+Nous utilisons un execv() qui nous permet de modifier un processus fils du serveur et ainsi lancer le sous-programme socket.c
+
+#### Les signaux
+
+Des signaux sont utilisés pour interrompre des processus comme:
+* le signal SIGALRM pour arrêter le programme une fois que le nombre de secondes placées en paramètres est écoulé.
+* les signaux SIGUSR pour notifier les clients lors de la victoire d'un joueur et aussi pour informer que le nombre maximal de joueurs sont atteints.
+* le signal SIGKILL permet d'empecher un client non autorisé à rejoindre la partie.
+
+---
+
+### Test Unitaire
+
+Check est un framework de tests unitaires pour C. 
+Il dispose d'une interface simple pour définir des tests unitaires, mettant peu d'obstacles pour le développeur. Les tests sont exécutés dans un espace d'adressage séparé, de sorte que les échecs d'assertion et les erreurs de code qui provoquent des défauts de segmentation ou d'autres signaux peuvent être détectés. Les résultats des tests peuvent être signalés dans les éléments suivants : sous-unité, TAP, XML et un format de journalisation générique.
+
+![framework](./assets/images/notice/framework.PNG "framework")
