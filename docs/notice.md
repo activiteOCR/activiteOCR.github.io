@@ -100,7 +100,21 @@ Des signaux sont utilisés pour interrompre des processus comme:
 
 ### Test Unitaire
 
-Check est un framework de tests unitaires pour C. 
-Il dispose d'une interface simple pour définir des tests unitaires, mettant peu d'obstacles pour le développeur. Les tests sont exécutés dans un espace d'adressage séparé, de sorte que les échecs d'assertion et les erreurs de code qui provoquent des défauts de segmentation ou d'autres signaux peuvent être détectés. Les résultats des tests peuvent être signalés dans les éléments suivants : sous-unité, TAP, XML et un format de journalisation générique.
+En programmation informatique, le test unitaire est une procédure permettant de vérifier le bon fonctionnement d'une partie précise d'un logiciel ou d'une portion d'un programme (appelée « unité » ou « module »).
 
-![framework](./assets/images/notice/framework.PNG "framework")
+Check est un framework de tests unitaires pour C: 
+Il dispose d'une interface simple pour définir des tests unitaires, mettant peu d'obstacles pour le développeur. Les tests sont exécutés dans un espace d'adressage séparé, de sorte que les échecs d'assertion et les erreurs de code qui provoquent des défauts de segmentation ou d'autres signaux peuvent être détectés.
+
+```bash linenums="1"
+START_TEST(test_nofork_sideeffects)
+
+{
+
+	ck_assert_msg(counter == 1,
+
+		"Side effects not seen across tests");
+
+}
+
+END_TEST
+```
