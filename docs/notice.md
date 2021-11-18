@@ -93,9 +93,9 @@ Nous utilisons un execv() qui nous permet de modifier un processus fils du serve
 
 Des signaux sont utilisés pour interrompre des processus comme:
 
-	- le signal SIGALRM pour arrêter le programme une fois que le nombre de secondes placées en paramètres est écoulé.
-	- les signaux SIGUSR pour notifier les clients lors de la victoire d'un joueur et aussi pour informer que le nombre maximal de joueurs sont atteints.
-	- le signal SIGKILL permet d'empecher un client non autorisé à rejoindre la partie.
+- le signal SIGALRM pour arrêter le programme une fois que le nombre de secondes placées en paramètres est écoulé.
+- les signaux SIGUSR pour notifier les clients lors de la victoire d'un joueur et aussi pour informer que le nombre maximal de joueurs sont atteints.
+- le signal SIGKILL permet d'empecher un client non autorisé à rejoindre la partie.
 
 ---
 
