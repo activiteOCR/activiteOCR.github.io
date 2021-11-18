@@ -74,9 +74,12 @@ Enfin, après avoir réussi à implémenter toutes nos attentes, nous avons choi
 
 Le but de ce projet fut avant tout de nous familiariser avec les concepts vus en cours.
 
+---
+
 #### Les tubes
 
 Nous avons utilisé un tube nommé principal pour assurer la communication entre tous les clients et le serveur, ainsi que plusieurs tubes nommés individuels permettant au serveur de communiquer avec chaque client.
+
 ---
 
 #### Les appels systèmes
