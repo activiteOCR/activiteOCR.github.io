@@ -70,7 +70,7 @@ Enfin, après avoir réussi à implémenter toutes nos attentes, nous avons choi
 
 ---
 
-### Concept programmation de système linux
+### Programmation système
 
 Le but de ce projet fut avant tout de nous familiariser avec les concepts vus en cours.
 
